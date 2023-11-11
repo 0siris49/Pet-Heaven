@@ -1,0 +1,174 @@
+/* RehomingForm.css */
+
+.rehoming-form-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: 150px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .user-form-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+    margin-top: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .animal-form-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 30px;
+    margin-left: 35px;
+    justify-content: space-between;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+    margin-top: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .disclaimer-form-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 15px;
+    /* border: 1px solid #ccc; */
+    border-radius: 1px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+   
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: center; 
+}
+  .animalTitle, .userTitle{
+    text-align: center;
+    width: 100%; 
+    margin-bottom: 20px; 
+    font-size: 20px;
+  }
+
+  .RehomeName{
+    margin-top: 100px;
+    font-family: arial;
+
+  }
+  
+
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  
+  input, textarea  {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color:#fafafa;
+    
+  }
+
+  .petGender{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 150px;
+  }
+  
+  .rehomebutton{
+    width: 100%;
+    padding: 10px;
+    margin-left: 30px;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rehomebutton:hover {
+    background-color: darkred;
+  }
+
+  .radio-buttons label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  .radio-buttons input[type="radio"] {
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+  
+  .radio-buttons label span {
+    margin-right: 200px;
+  }
+
+
+  .checkbox-label {
+    display: flex; /* Use flexbox for label contents */
+    align-items: center; /* Align items vertically */
+    padding: 0;
+}
+
+
+   input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: 8px;
+   
+  } 
+
+
+  /* .checkbox-buttons span {
+    margin-left: 200px;
+    text-wrap: wrap;
+  } */
+
+
+ .disclaimerspan { 
+  font-style: italic;
+  color: #555;
+  font-size:13px;
+  text-wrap: nowrap;
+  /* white-space: wrap; */
+  /* margin-left: 8px; */
+}
+
+
+  /* .userTitle .animalTitle{
+    margin-top: 100px;
+  }  */
+
+  ::placeholder {
+    color: #999; /* Adjust the color to your preference */
+    opacity: 0.6; /* Adjust the opacity to make it more faded */
+  }
+  

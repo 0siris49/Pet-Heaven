@@ -1,0 +1,66 @@
+/* CanYou.css */
+
+.containerCY {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.textCY {
+    flex: 1;
+    padding: 0 5px;
+}
+
+.question {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-wrap: wrap;
+    padding-right: 200px;
+    margin-top: 150px; 
+}
+  
+  .CYtext{
+    font-size: 18px;
+    line-height: 1.5;
+    text-wrap: wrap;
+    padding-right: 200px;
+    margin-top: 100px; 
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .imageClifford {
+    flex: 1;
+    text-align: right;
+    padding-right: 280px;
+    padding: 20px;
+    margin-top: 200px; 
+    max-width: 100%;
+}
+
+  .clifford{
+    height:580px;
+    width:680px;
+  }
+
+  
+  

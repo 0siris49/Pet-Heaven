@@ -1,0 +1,96 @@
+/* styles.css */
+.form-container {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+  }
+
+  .form-container p{
+    text-align: center;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .form-container label {
+    flex: 0 0 20%; /* Adjust the width of labels */
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="date"],
+  .form-container input[type="tel"],
+  .form-container textarea {
+    flex: 0 0 65%; /* Adjust the width of input fields */
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .form-container select[type="dropdown"]{
+    flex: 0 0 65%; /* Adjust the width of input fields */
+    padding: 8px;
+    margin: 5px 64px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+  }
+  
+  .form-container input[type="radio"] {
+    margin-top: 10px;
+    margin-right: 120px;
+  }
+  
+  .form-container input[type="submit"] {
+    width: 50%;
+    background-color: brown;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 150px;
+    margin-left: 250px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+
+  .form-container input[type="submit"]:hover {
+    background-color: darkred;
+  }
+
+  .postalcode{
+    margin-top: 15px;
+  }
+
+.formname{
+    margin-bottom: 55px;
+    font-size: 35px;
+}
+
+.note{
+  margin-left: 220px;
+  margin-top: 30px;
+  font-style: italic;
+  color: #555;
+  font-size:15px;
+  text-wrap: nowrap;
+}

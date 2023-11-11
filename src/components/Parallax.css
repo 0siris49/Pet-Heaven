@@ -1,0 +1,131 @@
+
+
+.tip1{
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+.tips{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.registerlink, .signinlink{
+    color: blueviolet;
+
+}
+
+.registerlink, .signinlink {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    /* border: 1px solid #ccc;
+    border-radius: 5px; */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.registerlink:hover, .signinlink:hover {
+    transform: scale(1.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+}
+
+
+
+.content{
+    height: 100vh;
+}
+
+.content1{
+    height: 100vh;
+}
+
+.content3{
+    height: 150vh;
+}
+
+
+.content2{
+    height: 30vh;
+}
+
+.text-content{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    padding: 5px 15px;
+    transform: translate(-50%, -50%);
+    background: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 50px;
+}
+
+.text{
+    position: absolute;
+    top: 60%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-wrap: wrap;
+    font-size: 25px;
+    opacity: 0;
+    animation: fade-in-element-animation 2.0s ease-in forwards;
+}
+
+.text2{
+    position: absolute;
+    top: 64%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-wrap: wrap;
+    font-size: 22px;
+    opacity: 0;
+    animation: fade-in-element-animation 2.3s ease-in forwards;
+}
+
+.text3{
+    position: absolute;
+    top: 83%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-wrap: wrap;
+    font-size: 20px;
+    opacity: 0;
+    animation: fade-in-element-animation 2.5s ease-in forwards;
+}
+
+
+.text4{
+    position: absolute;
+    top: 88%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-wrap: wrap;
+    font-size: 25px;
+    opacity: 0;
+    animation: fade-in-element-animation 2.8s ease-in forwards;
+}
+
+
+
+@keyframes fade-in-element-animation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+
+  

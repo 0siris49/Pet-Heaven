@@ -1,0 +1,48 @@
+/* PetDetails.css */
+.AdoptContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .AdoptContent {
+    flex: 1;
+    padding: 3%;
+  }
+  
+  .AnimalName {
+    font-size: 45px;
+    margin-bottom: 35px;
+  }
+  
+  .AdoptDescription {
+    line-height: 1.6;
+    padding-top: 30px;
+  }
+  
+  .AdoptPic {
+    max-width: 500px;
+    border-radius: 8px;
+  }
+  
+  .AdoptButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #42b883;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 450px;
+  }
+  
+  .AdoptButton:hover {
+    background-color: #359e72;
+  }
+  
