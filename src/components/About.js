@@ -1,14 +1,17 @@
 import React from 'react';
 import './About.css';
 import Footer from './Footer';
+import shiba from './picture/shibaAbout.jpg'
+import greycat from './picture/CatAbout1.jpg'
+import goldie from './picture/golder-retriever-puppy.jpeg'
 const About = () => {
   return (
     <>
     <div className='about-container'>
       <div className="about-container">
-        <img src="/shibaAbout.jpg" height="200" width="200"/>
-        <img src="/CatAbout1.jpg" height="200" width="200" className='cattoSpacing'/>
-        <img src="/golder-retriever-puppy.jpeg" height="200" width="200" className='goldieSpacing'/>
+        <img src={shiba} height="200" width="200"/>
+        <img src={greycat} height="200" width="200" className='cattoSpacing'/>
+        <img src={goldie} height="200" width="200" className='goldieSpacing'/>
       </div>
       <h2 className='fade-in-element-1'>Our Story</h2>
       <p className='fade-in-element-5'>

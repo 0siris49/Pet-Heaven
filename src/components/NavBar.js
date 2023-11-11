@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import shydoglogo from './picture/shydoglogo.jpg';
 import './Navbar.css';
 
 const NavBar = ({ isLoggedIn, onLogout }) => {
@@ -7,7 +8,7 @@ const NavBar = ({ isLoggedIn, onLogout }) => {
     <nav>
       <div className='menuitem'>
         <Link to='/' className="doglogo">
-          <img src="/shydoglogo.jpg" height="80" width="80" alt="Logo" />
+          <img src={shydoglogo} height="80" width="80" alt="Logo" />
         </Link>
         <Link to='/'>Home</Link>
         <Link to='/about'>About</Link>
