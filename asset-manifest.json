@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Pet-Heaven/static/css/main.39d5350f.css",
+    "main.js": "/Pet-Heaven/static/js/main.5e5a072f.js",
+    "static/js/787.bb8a61f7.chunk.js": "/Pet-Heaven/static/js/787.bb8a61f7.chunk.js",
+    "static/media/Hoji.jpg": "/Pet-Heaven/static/media/Hoji.f81000187c10d1cc0997.jpg",
+    "static/media/SpinCat.gif": "/Pet-Heaven/static/media/SpinCat.86d0cd81210de1d0a4db.gif",
+    "static/media/hojiVertical.jpg": "/Pet-Heaven/static/media/hojiVertical.9018ca84fd39dfddb448.jpg",
+    "static/media/heigou.jpg": "/Pet-Heaven/static/media/heigou.709451e9172b47bae499.jpg",
+    "static/media/ginger.jpg": "/Pet-Heaven/static/media/ginger.a7626957e5d9b9702037.jpg",
+    "static/media/clifford.jpg": "/Pet-Heaven/static/media/clifford.96e40ecfec71ac5713f8.jpg",
+    "static/media/golder-retriever-puppy.jpeg": "/Pet-Heaven/static/media/golder-retriever-puppy.e8ef6b91bac524f175cf.jpeg",
+    "static/media/simba.jpg": "/Pet-Heaven/static/media/simba.6c78269ee5cd5c25b553.jpg",
+    "static/media/5.jpg": "/Pet-Heaven/static/media/5.7f7d1bb5966a185fbd50.jpg",
+    "static/media/4.jpg": "/Pet-Heaven/static/media/4.aea47d45bc81dd774d3a.jpg",
+    "static/media/1.jpg": "/Pet-Heaven/static/media/1.12b9a5311cbf400703a3.jpg",
+    "static/media/marty.jpg": "/Pet-Heaven/static/media/marty.e41a6804ab9c64e2b35c.jpg",
+    "static/media/imageD.jpg": "/Pet-Heaven/static/media/imageD.10abc4584f0055251d3f.jpg",
+    "static/media/2.jpg": "/Pet-Heaven/static/media/2.33591111dfa5c4762293.jpg",
+    "static/media/pudgy.jpg": "/Pet-Heaven/static/media/pudgy.dc210a903c9b3bac35ba.jpg",
+    "static/media/3.jpg": "/Pet-Heaven/static/media/3.d5d71810cc82bfdee2fc.jpg",
+    "static/media/6.jpg": "/Pet-Heaven/static/media/6.89d95f43cebe77b66d74.jpg",
+    "static/media/CatAbout1.jpg": "/Pet-Heaven/static/media/CatAbout1.21a61355c6ef8db360eb.jpg",
+    "static/media/shibaAbout.jpg": "/Pet-Heaven/static/media/shibaAbout.7c2237c9573312afcae0.jpg",
+    "static/media/sky.jpg": "/Pet-Heaven/static/media/sky.339392392e215c6d79e8.jpg",
+    "static/media/shydoglogo.jpg": "/Pet-Heaven/static/media/shydoglogo.f1c4a5c360f64437a25d.jpg",
+    "index.html": "/Pet-Heaven/index.html",
+    "main.39d5350f.css.map": "/Pet-Heaven/static/css/main.39d5350f.css.map",
+    "main.5e5a072f.js.map": "/Pet-Heaven/static/js/main.5e5a072f.js.map",
+    "787.bb8a61f7.chunk.js.map": "/Pet-Heaven/static/js/787.bb8a61f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39d5350f.css",
+    "static/js/main.5e5a072f.js"
+  ]
+}
